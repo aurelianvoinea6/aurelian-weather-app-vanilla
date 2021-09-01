@@ -1,3 +1,12 @@
 body {
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
 }

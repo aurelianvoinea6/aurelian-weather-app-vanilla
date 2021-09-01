@@ -92,10 +92,12 @@ li:first-letter {
 }
 
 .weather-forecast-temperature-min {
+  font-weight: bold;
   opacity: 0.5;
 }
 
 .weather-forecast-temperatures {
+  font-weight: bold;
   font-size: 13px;
 }
 

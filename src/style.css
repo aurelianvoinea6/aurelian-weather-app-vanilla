@@ -1,12 +1,124 @@
 body {
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  background-image: url(../img/8.jpg);
   font-family: arial, sans-serif;
+  color: #3c096c;
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-  color: #878787;
+  color: #3c096c;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(8, 7, 7);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  background: linear-gradient(to right, #bee1e6, #ffbf69, #cddafd);
+  border-radius: 15px;
+  box-shadow: 3px 1px 3px 1px #3c096c;
+}
+
+.weather-app {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.btn {
+  background-color: white;
+  color: #3c096c;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px #3c096c;
+  border-radius: 20px;
+}
+
+.form-control {
+  border-radius: 20px;
 }

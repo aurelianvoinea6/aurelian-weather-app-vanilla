@@ -2,7 +2,6 @@ body {
   background-image: url(../img/8.jpg);
   font-family: arial, sans-serif;
   color: #3c096c;
-
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,10 +23,9 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-
-  color: rgb(8, 7, 7);
+  color: #3c096c;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: bold;
   line-height: 19px;
 }
 
@@ -37,6 +35,7 @@ li:first-letter {
 
 .weather-app-wrapper {
   max-width: 600px;
+
   margin: 30px auto;
   background: linear-gradient(to right, #bee1e6, #ffbf69, #cddafd);
   border-radius: 15px;
@@ -90,6 +89,7 @@ li:first-letter {
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
+  font-weight: bold;
 }
 
 .weather-forecast-temperature-min {
@@ -104,7 +104,8 @@ li:first-letter {
 
 footer {
   text-align: center;
-  color: white;
+  margin-top: 20px;
+
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
